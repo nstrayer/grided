@@ -21,5 +21,7 @@ This will give you a live-reload server.
 
 First generate a bundled javascript file without source-map bloat
 ```bash
-parcel build index.html --no-source-maps
+parcel build index.ts --no-source-maps 
 ```
+
+Then switch the script source to `dist/index.js` from `./index.ts` in `index.html`. 
