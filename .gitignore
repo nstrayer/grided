@@ -1,4 +1,9 @@
 
 .cache/
+# Ignore all the stuff in the dist folder 
+dist/*
+# Except index.js becuse that's the bundled js we actually want
+!dist/index.js
 
-.DS_Store
+# I own a mac and use finder sometimes
+**/.DS_Store
