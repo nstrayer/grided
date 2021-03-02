@@ -1,6 +1,5 @@
 ## Note:
-This is a small spinoff of an R package used to generate grid layouts.
-The main development happens over at [rstudio/gridlayout](https://github.com/rstudio/gridlayout).
+This is a small spinoff of an R package used to generate grid layouts and thus won't be updated terribly often. 
 
 # Running dev environment
 
